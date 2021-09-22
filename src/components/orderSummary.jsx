@@ -1,19 +1,20 @@
 import '../components/orderSummary.css'
-// import { useLocation } from 'react-router';  PARA TRAER EL NOMBRE DEL MESER@
+ import { useLocation } from 'react-router';  
 
 const Ordersummary = () => {
-    // const location = useLocation();
+     const location = useLocation();
     return (
 
         <div className = 'summaryContainer'> 
-            <h1 className= 'text1'> RESUMEN DEL PEDIDO </h1>
+            <h1 className= 'textResume'> RESUMEN DEL PEDIDO </h1>
             <div className = 'tableNumContainer'>
+                <h3 className= 'text3'> Mesero: {location.state}</h3>
             <h2 className= 'text2'> N° DE MESA: </h2>
-            <h3 className= 'text3'> {/*location.state*/} mesa seleccionada </h3>
+            
             </div>
             <div className= 'orderContainer'>
             </div>
-            <button className = 'btn-secondary'> ENVIAR </button>
+            <button className = 'btn-light'> ENVIAR </button>
         </div>
 
     );

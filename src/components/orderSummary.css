@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.text1{
+.textResume{
     font-family: 'Roboto', sans-serif;
     color: black;
     font-style: normal;
@@ -29,7 +29,7 @@
 }
 .tableNumContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: stretch;
     flex-direction: row;
     background: #C4C4C4;
@@ -45,7 +45,8 @@
     background: #C4C4C4;
     border-radius: 22px;
 }
-.btn-secondary{
+.btn-light
+{
     width: 30%;
     font-size: 3em;
     background: #BC6FF1;
@@ -63,7 +64,7 @@
     top: -3%;
     right:-20%;
 }
-.btn-secondary:hover{
+.btn-light:hover{
     background: #361875;
     color: rgb(202, 199, 199);
     border-color: #7c40ff;
