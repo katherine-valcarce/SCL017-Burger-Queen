@@ -8,7 +8,6 @@ const User = () => {
       <div className="container">
 
         <div className="row">
-
           <div className="card">
             <Link to={{ pathname: "/menu", state: 'Camila Zuñiga' }}>
               <img src={'https://imgur.com/3b9N1bL.png'} alt="camila" />
