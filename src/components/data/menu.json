@@ -55,8 +55,8 @@
 
   "typeBurgir": ["Vacuno", "Pollo", "Vegetariana"],
   "add": [
-    { "name": "Queso", "price": 1 , "id": "9"},
-    { "name": "Huevo", "price": 1, "id": "10"}
+    { "name": "Queso", "price": 1, "id": "9" },
+    { "name": "Huevo", "price": 1, "id": "10" }
   ],
 
   "extras": [
@@ -74,12 +74,21 @@
     }
   ],
 
-  "soda": [
-    { "name": "Bebida 500 ML", "price": 7, "img": "https://imgur.com/sz3k3Yi.png" },
-    { "name": "Bebida 700 ML", "price": 10 }
-  ],
-  "water": [
-    { "name": "Agua 500 ML", "price": 5, "img": "https://imgur.com/JH1sHd2.png" },
-    { "name": "Agua 700 ML", "price": 7 }
+  "drinks":[
+    {
+      "name": "Agua 500 ML",
+      "id": "14",
+      "price": 5 ,
+      "size" : ["Agua 750 ML + $7"],
+      "img" : "https://imgur.com/JH1sHd2.png"
+    },
+    {
+      "name": "Bebida 500 ML",
+      "id": "15",
+      "price": 7 ,
+      "size" : ["Bebida 750 ML + $10"],
+      "img" : "https://imgur.com/sz3k3Yi.png"
+    }
   ]
+  
 }
