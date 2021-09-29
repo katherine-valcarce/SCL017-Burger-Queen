@@ -1,6 +1,6 @@
 import React from "react";
 import Ordersummary from "./orderSummary";
-import "../components/menu.css";
+import "../components/css/menu.css";
 import { NavBurgir } from "./Nav";
 
 const Burgir = ({dataBurgir, dataTypeBurgir, dataAdd, mesero, mesa}) => {

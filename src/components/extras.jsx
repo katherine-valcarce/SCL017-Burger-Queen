@@ -1,6 +1,6 @@
 import React from "react";
 import Ordersummary from "./orderSummary";
-import "../components/menu.css";
+import "../components/css/menu.css";
 import { NavExtras } from "./Nav";
 import data from "./data/menu.json";
 
@@ -23,7 +23,9 @@ const Extras = ({mesero, mesa}) => {
       <div className="Menu">
         {dataExtras.map((product) => (
           <div key={product.id} className="cardMenu ">
-            <img src={product.img} className="card-img-top" alt="..." />
+            <button className="" type="button">
+                <img src={product.img} className="card-img-top" alt="..." />{" "}
+              </button>
             <div className="card-body">
               <h5 className="card-title">{product.name}</h5>
               <p className="card-price">${product.price}</p>
