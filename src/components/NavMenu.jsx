@@ -3,7 +3,7 @@ import '../components/css/nav.css'
 import { useState } from 'react';
 import data from "./data/menu.json"
 
-
+//cambiar esto.....
 export default function NavMenu (props){
 
   const {product, addItem} = props;
