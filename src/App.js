@@ -5,8 +5,11 @@ import Menu from "./components/menu"
 import React, { useState } from "react";
 
 const App = () => {
-  const [mesero, setMesero] = useState('');
-  const [mesa, setMesa] = useState('');
+  let [mesero, setMesero] = useState('');
+  let [mesa, setMesa] = useState('');
+
+  let [order, setOrder] = useState([]);
+
 
 
   return (
@@ -20,6 +23,7 @@ const App = () => {
           mesero={mesero}
           setMesa={setMesa}
           mesa={mesa}
+          order={order}
           /> </Route>
       </Switch>
     </Router>
