@@ -1,6 +1,6 @@
 # BURGIR SPACE
 
-![Imgur](https://i.imgur.com/1tvsB1K.png)
+[Imgur](https://i.imgur.com/1tvsB1K.png)
 
 ## Indice
 
