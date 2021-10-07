@@ -72,10 +72,8 @@ https://miro.com/app/live-embed/o9J_lwqdxZY=/?moveToViewport=-4105,-6346,36415,1
 
 ## Test de Usabilidad
 
-Este es el testeo de el prototipo de alta:
+Este es el testeo de el prototipo de alta: https://ww.loom.com/share/0f787b3e706246aba740cf1069466ee1
 
-
-[![Loom](https://ww.loom.com/share/0f787b3e706246aba740cf1069466ee1)](https://ww.loom.com/share/0f787b3e706246aba740cf1069466ee1)
 
 
 
