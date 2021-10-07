@@ -36,7 +36,6 @@ El nombre "Burgir" viene de un video viral y le dismos un concepto espacial.
 
 <img src="src/burgir.gif" width="13%">
 
-
 <br>
 
 ## Prototipo de baja 
