@@ -21,13 +21,13 @@ Es una aplicación especialmente diseñada para **Tablets** con el fin de mejora
 *La orientación de la Tablet debe ser horizontal*
 
 <p align="center">
-<img  src="https://i.imgur.com/Toum1YY.png" width="45%" >
+<img  src="https://i.imgur.com/aeTOueK.png" width="45%" >
 
-<img  src="https://i.imgur.com/PeMuyR8.png" width="45%" >
+<img  src="https://i.imgur.com/LuWhobF.png" width="45%" >
 
-<img  src="https://i.imgur.com/lw8mADg.png" width="45%" >
+<img  src="https://i.imgur.com/rouhPay.png" width="45%" >
 
-<img  src="https://i.imgur.com/xB8pMCP.png" width="45%" >
+<img  src="https://i.imgur.com/m2JMWL4.png" width="45%" >
 </p>
 
 ## Prototipos 
@@ -35,9 +35,6 @@ Es una aplicación especialmente diseñada para **Tablets** con el fin de mejora
 El nombre "Burgir" viene de un video viral y le dismos un concepto espacial. 
 
 <img src="src/burgir.gif" width="13%">
-<img src="https://i.imgur.com/ss3obdP.png" width="16%"> 
-<img src="https://i.imgur.com/VdmnzCSb.png" width="16%"> 
-
 
 
 <br>
@@ -47,13 +44,13 @@ El nombre "Burgir" viene de un video viral y le dismos un concepto espacial.
 <br>
 
 <p align="center">
-<img  src="https://i.imgur.com/KSuV7J5.jpg" width="45%" >
+<img  src="https://i.imgur.com/zgeiAdF.jpg" width="45%" >
 
-<img  src="https://i.imgur.com/CJH2X9p.jpg" width="45%" >
+<img  src="https://i.imgur.com/hdTwa7g.jpg" width="45%" >
 
-<img  src="https://i.imgur.com/L29YniY.jpg" width="45%" >
+<img  src="https://i.imgur.com/qSAQRLT.jpg" width="45%" >
 
-<img  src="https://i.imgur.com/y70MUzC.jpg" width="45%" >
+<img  src="https://i.imgur.com/V9WlYjh.jpg" width="45%" >
 
 </p>
 
@@ -77,9 +74,9 @@ https://miro.com/app/live-embed/o9J_lwqdxZY=/?moveToViewport=-4105,-6346,36415,1
 ## Test de Usabilidad
 
 Este es el testeo de el prototipo de alta:
-https://ww.loom.com/share/0f787b3e706246aba740cf1069466ee1
 
 
+[![Loom]](https://ww.loom.com/share/0f787b3e706246aba740cf1069466ee1)
 
 
 
