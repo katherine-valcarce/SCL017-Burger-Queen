@@ -38,7 +38,7 @@ El nombre "Burgir" viene de un video viral y le dismos un concepto espacial.
 <img  src="https://j.gifs.com/BrnOVY.gif" width="30%" >
 
 <br>
-----
+
 ### Prototipo de baja 
 
 <br><br>
@@ -66,7 +66,7 @@ https://www.figma.com/file/VegQAycyzVekEFLw07wWUD/Burgir-Space?node-id=97%3A72
 
 Hicimos 6 Historias de usuario en total para completar la vista del Mesero en la toma de pedidos. 
 
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lwqdxZY=/?moveToViewport=-4105,-6346,36415,16690" frameBorder="0" scrolling="no" allowFullScreen></iframe> 
+<iframe  src="https://miro.com/app/live-embed/o9J_lwqdxZY=/?moveToViewport=-4105,-6346,36415,16690" frameBorder="0" scrolling="no" allowFullScreen></iframe> 
 
 ## Test de Usabilidad
 
