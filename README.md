@@ -35,10 +35,6 @@ Es una aplicación especialmente diseñada para **Tablets** con el fin de mejora
 El nombre "Burgir" viene de un video viral y le dismos un concepto espacial. 
 
 <img src="src/burgir.gif" width="13%">
-<img src="https://i.imgur.com/ss3obdP.png" width="16%"> 
-<img src="https://i.imgur.com/VdmnzCSb.png" width="16%"> 
-
-
 
 <br>
 
