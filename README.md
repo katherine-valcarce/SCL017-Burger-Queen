@@ -82,5 +82,3 @@ Este es el testeo de el prototipo de alta: https://ww.loom.com/share/0f787b3e706
 
 
 
-
-
