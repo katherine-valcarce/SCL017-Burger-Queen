@@ -34,14 +34,17 @@ Es una aplicación especialmente diseñada para **Tablets** con el fin de mejora
 
 El nombre "Burgir" viene de un video viral y le dismos un concepto espacial. 
 
+<img src="src/burgir.gif" width="13%">
+<img src="https://i.imgur.com/ss3obdP.png" width="16%"> 
+<img src="https://i.imgur.com/VdmnzCSb.png" width="16%"> 
 
-![burgir](src/burgir.gif)
+
 
 <br>
 
-### Prototipo de baja 
+## Prototipo de baja 
 
-<br><br>
+<br>
 
 <p align="center">
 <img  src="https://i.imgur.com/KSuV7J5.jpg" width="45%" >
@@ -54,8 +57,7 @@ El nombre "Burgir" viene de un video viral y le dismos un concepto espacial.
 
 </p>
 
-### Prototipo de alta 
-
+## Prototipo de alta 
 
 Puedes encontrar nuestro prototipo de alta en el siguiente enlace:
 
@@ -64,16 +66,23 @@ Puedes encontrar nuestro prototipo de alta en el siguiente enlace:
 
 ## Historias de Usuario
 
-Hicimos 6 Historias de usuario en total para completar la vista del Mesero en la toma de pedidos. 
+Hicimos 6 Historias de usuario en total para completar la vista del Mesero en la toma de pedidos:
 
+![Historias](https://i.imgur.com/h0Yd0qX.jpg)
+
+
+Para ver las H.U en mejor calidad, visita este enlace:
 https://miro.com/app/live-embed/o9J_lwqdxZY=/?moveToViewport=-4105,-6346,36415,16690
 
 ## Test de Usabilidad
 
-Este es el testeo de el prototipo de alta.
+Este es el testeo de el prototipo de alta:
+https://ww.loom.com/share/0f787b3e706246aba740cf1069466ee1
 
 
-https://www.loom.com/embed/0f787b3e706246aba740cf1069466ee1
+
+
+
 
 
 
