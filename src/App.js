@@ -5,8 +5,8 @@ import Menu from "./components/Menu";
 import React, { useState } from "react";
 
 const App = () => {
-  let [mesero, setMesero] = useState("");
-  let [mesa, setMesa] = useState("");
+  let [waiter, setWaiter] = useState("");
+  let [table, setTable] = useState("");
 
   return (
     <Router>
@@ -15,10 +15,10 @@ const App = () => {
           <Identify />
         </Route>
         <Route path="/user">
-          <User setMesero={setMesero}/>
+          <User setWaiter={setWaiter}/>
         </Route>
         <Route path="/menu">
-          <Menu mesero={mesero} setMesa={setMesa} mesa={mesa}/>
+          <Menu waiter={waiter} setTable={setTable} table={table}/>
         </Route>
       </Switch>
     </Router>

@@ -1,10 +1,10 @@
 import React from "react";
 import "../components/css/mesas.css";
 
-const Mesas = ({ setMesa, mesa }) => {
+const Mesas = ({ setTable, table }) => {
   return (
     <div className=" Menu-dropdown">
-      {mesa === "" && (
+      {table === "" && (
         <button
           className="btnMesa btn-secondary dropdown-toggle"
           type="button"
@@ -15,20 +15,20 @@ const Mesas = ({ setMesa, mesa }) => {
           ESCOGE MESA
         </button>
       )}
-      {mesa === "" && (
+      {table === "" && (
         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
           <li>         
-            <button className="dropdown-item" onClick={() => setMesa("1")}>
+            <button className="dropdown-item" onClick={() => setTable("1")}>
               Mesa 1
             </button>
           </li>
           <li>
-            <button className="dropdown-item" onClick={() => setMesa("2")}>
+            <button className="dropdown-item" onClick={() => setTable("2")}>
               Mesa 2
             </button>
           </li>
           <li>
-            <button className="dropdown-item" onClick={() => setMesa("3")}>
+            <button className="dropdown-item" onClick={() => setTable("3")}>
               Mesa 3
             </button>
           </li>

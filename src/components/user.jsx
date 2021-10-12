@@ -1,89 +1,23 @@
 import React, { Fragment } from "react";
-import "../components/css/user.css";
 import { Link } from "react-router-dom";
+import "../components/css/user.css";
+import data from "./data/menu.json";
 
-const User = ({ setMesero }) => {
+const User = ({ setWaiter }) => {
+  const dataUsers = data.users;
   return (
     <Fragment>
       <div className="containerUser">
-        <div className="rowUsers">
-          <div className="card">
-            <Link
-              to={{ pathname: "/menu" }}
-              onClick={() => setMesero("Camila Zuñiga")}
-            >
-              <img src={"https://i.imgur.com/UMLxTd0.png"} alt="camila" />
-              <div className="card-text">
-                <h3>Camila Zuñiga</h3>
-              </div>
-            </Link>
+           {dataUsers.map((user) => (
+          <div key={user.id} className="cardUser">
+             <Link className='buttonUser' to={{ pathname: "/menu" }} onClick={() => setWaiter(user.name)} >
+              <img src={user.img} className="imgUser" alt="..." />
+              <p className="card-text">{user.name}</p>
+              </Link>
+          </div>
+        ))}
           </div>
 
-          <div className="card">
-            <Link
-              to={{ pathname: "/menu" }}
-              onClick={() => setMesero("Rodrigo Gutierrez")}
-            >
-              <img src={"https://i.imgur.com/JFni5Wo.png"} alt="Rodrigo" />
-              <div className="card-text">
-                <h3>Rodrigo Gutierrez</h3>
-              </div>
-            </Link>
-          </div>
-        </div>
-
-        <div className="rowUsers">
-          <div className="card">
-            <Link
-              to={{ pathname: "/menu" }}
-              onClick={() => setMesero("Eva Muñoz")}
-            >
-              <img src={"https://i.imgur.com/uoOtRCQ.png"} alt="eva" />
-              <div className="card-text">
-                <h3>Eva Muñoz</h3>
-              </div>
-            </Link>
-          </div>
-
-          <div className="card">
-            <Link
-              to={{ pathname: "/menu" }}
-              onClick={() => setMesero("Camilo Figueroa")}
-            >
-              <img src={"https://i.imgur.com/lt8VFSd.png"} alt="Camilo" />
-              <div className="card-text">
-                <h3> Camilo Figueroa</h3>
-              </div>
-            </Link>
-          </div>
-        </div>
-
-        <div className="rowUsers">
-          <div className="card">
-            <Link
-              to={{ pathname: "/menu" }}
-              onClick={() => setMesero("Victor Acuña")}
-            >
-              <img src={"https://i.imgur.com/QMmDwpG.png"} alt="Victor" />
-              <div className="card-text">
-                <h3>Victor Acuña</h3>
-              </div>
-            </Link>
-          </div>
-
-          <div className="card">
-            <Link
-              to={{ pathname: "/menu" }}
-              onClick={() => setMesero("Carolina Quintanilla")}
-            >
-              <img src={"https://i.imgur.com/78WBLt3.png"} alt="carolina"/>
-              <div className="card-text">
-                <h3>Carolina Quintanilla</h3>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </div>
     </Fragment>
   );
 };

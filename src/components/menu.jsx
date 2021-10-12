@@ -6,7 +6,7 @@ import "../components/css/menu.css";
 import data from "./data/menu.json";
 import { useState } from "react";
 
-function Menu({ mesero, setMesa, mesa }) {
+function Menu({ waiter, setTable, table }) {
   const { products } = data;
   const [cartItems, setCartItems] = useState([]);
   const onAdd = (product) => {
@@ -44,7 +44,7 @@ function Menu({ mesero, setMesa, mesa }) {
 
   const resetOrder = () => {
     setCartItems([]);
-    setMesa("");
+    setTable("");
     setDataActual(data.startMenu);
   };
 
@@ -56,18 +56,18 @@ function Menu({ mesero, setMesa, mesa }) {
         removeItems={removeItems}
         setCartItems={setCartItems}
         cartItems={cartItems}
-        mesero={mesero}
-        mesa={mesa}
+        waiter={waiter}
+        table={table}
         resetOrder={resetOrder}
       />
       <NavMenu
         onAdd={onAdd}
         products={products}
-        mesa={mesa}
+        table={table}
         dataActual={dataActual}
         setDataActual={setDataActual}
       />
-      <Mesas setMesa={setMesa} mesa={mesa} />
+      <Mesas setTable={setTable} table={table} />
     </div>
   );
 }

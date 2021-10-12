@@ -121,5 +121,37 @@
       "price": 15,
       "img": "https://i.imgur.com/32UNrzB.png"
     }
+  ],
+  "users": [
+    {
+      "name": "Camila Zuñiga",
+      "id": "Camila Zuñiga",
+      "img": "https://i.imgur.com/UMLxTd0.png"
+    },
+    {
+      "name": "Rodrigo Gutierrez",
+      "id": "Rodrigo Gutierrez",
+      "img": "https://i.imgur.com/JFni5Wo.png"
+    },
+    {
+      "name": "Eva Muñoz",
+      "id": "Eva Muñoz",
+      "img": "https://i.imgur.com/uoOtRCQ.png"
+    },
+    {
+      "name": "Camilo Figueroa",
+      "id": "Camilo Figueroa",
+      "img": "https://i.imgur.com/lt8VFSd.png"
+    },
+    {
+      "name": "Victor Acuña",
+      "id": "Victor Acuña",
+      "img": "https://i.imgur.com/QMmDwpG.png"
+    },
+    {
+      "name": "Carolina Quintanilla",
+      "id": "Carolina Quintanilla",
+      "img": "https://i.imgur.com/78WBLt3.png"
+    }
   ]
 }

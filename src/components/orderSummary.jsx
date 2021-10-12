@@ -4,8 +4,8 @@ import ItemsOrder from "./ItemsOrder";
 import { savingDataFirebase } from "../firebase";
 
 const Ordersummary = ({
-  mesero,
-  mesa,
+  waiter,
+  table,
   cartItems,
   onAdd,
   onRemove,
@@ -22,8 +22,8 @@ const Ordersummary = ({
       <div className="summaryContainer">
         <h1 className="textResume"> RESUMEN DEL PEDIDO </h1>
         <div className="tableNumContainer">
-          <h3 className="textWaiterTable">MESERO: &nbsp;&nbsp;{mesero}</h3>
-          <h3 className="textWaiterTable">MESA: &nbsp;&nbsp;{mesa}</h3>
+          <h3 className="textWaiterTable">MESERO: &nbsp;&nbsp;{waiter}</h3>
+          <h3 className="textWaiterTable">MESA: &nbsp;&nbsp;{table}</h3>
         </div>
         <ItemsOrder
           onAdd={onAdd}
@@ -85,7 +85,7 @@ const Ordersummary = ({
               <button
                 className="btn btn-light"
                 data-bs-target="#exampleModalToggle2"
-                onClick={() => savingDataFirebase(cartItems, mesero, mesa)}
+                onClick={() => savingDataFirebase(cartItems, waiter, table)}
                 data-bs-toggle="modal"
                 data-bs-dismiss="modal"
               >

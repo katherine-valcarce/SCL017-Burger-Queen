@@ -4,11 +4,11 @@ import data from "./data/menu.json";
 
 export default function NavMenu(props) {
   
-  const { onAdd, mesa, setDataActual, dataActual } = props;
+  const { onAdd, table, setDataActual, dataActual } = props;
   const dataBreakfast = data.breakfast;
 
   const showBurgir = () => {
-    if (mesa.length > 0) {
+    if (table.length > 0) {
       setDataActual(data.burgir);
     } else {
       alert("Debe ingresar número de mesa");
@@ -16,7 +16,7 @@ export default function NavMenu(props) {
   };
 
   const showBreakfast = () => {
-    if (mesa.length > 0) {
+    if (table.length > 0) {
       setDataActual(dataBreakfast);
     } else {
       alert("Debe ingresar número de mesa");
@@ -24,7 +24,7 @@ export default function NavMenu(props) {
   };
 
   const showExtras = () => {
-    if (mesa.length > 0) {
+    if (table.length > 0) {
       setDataActual(data.extras);
     } else {
       alert("Debe ingresar número de mesa");
