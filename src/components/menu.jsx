@@ -1,7 +1,7 @@
 import React from "react";
 import NavMenu from "./NavMenu";
-import Mesas from "./Mesas";
-import Ordersummary from "./OrderSummary";
+import Mesas from "./mesas";
+import Ordersummary from "./orderSummary";
 import "../components/css/menu.css";
 import data from "./data/menu.json";
 import { useState } from "react";
